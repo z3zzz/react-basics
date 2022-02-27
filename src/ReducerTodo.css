@@ -1,0 +1,38 @@
+.todos-board {
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.todo-input {
+  font-size: 1.4rem;
+  padding: .8rem .2rem; 
+  background-color: white;
+  margin-bottom: 1rem;
+  width: 20rem;
+}
+
+.todo-value {
+  font-size: 1.2rem;
+  padding: .2rem .2rem;
+  width: 20rem;
+  text-align: left;
+}
+
+.button-container {
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: #9999ff;
+  font-size: 1.2rem;
+  width: 5rem;
+  padding: 0;
+  color: #ddd;
+  margin: 0;
+}
+
+.button:not(:first-of-type) {
+  margin-left: 2.6rem;
+}

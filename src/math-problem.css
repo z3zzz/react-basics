@@ -1,0 +1,50 @@
+.problem-card {
+  padding: 1.3rem;
+  width: 40vh;
+  height: 60vh;
+}
+
+.problem {
+  font-size: 2rem;
+}
+
+.user-input-card {
+  font-size: 2rem;
+}
+
+.user-input {
+  font-size: 1.5rem;
+  padding: 1.03rem 1.2rem;
+  width: 7rem;
+
+}
+
+.submit-button {
+  font-size: 1.3rem;
+  background-color: rgba(30, 180, 30, .9);
+  margin-left: 1.2rem;
+  padding: 1.03rem 1.2rem;
+}
+
+.submit-button:hover {
+  background-color: rgba(30, 180, 30, .5);
+  
+}
+
+.game-result {
+  font-size: 1.2rem;
+  margin-top: 1.3rem;
+}
+
+.make-problem-button {
+  background-color: rgba(60, 120, 180, .9);
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 1.05rem 0;
+  font-size: 1.3rem;
+}
+
+.make-problem-button:hover {
+  background-color: rgba(60, 120, 180, .5);
+}
+
