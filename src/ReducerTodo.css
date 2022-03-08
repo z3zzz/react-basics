@@ -1,4 +1,5 @@
 .todos-board {
+  margin-top: 3rem;
   box-sizing: border-box;
   background-color: #e5e5e5;
   padding: 1.5rem 2rem;
@@ -10,13 +11,13 @@
   padding: .8rem .2rem; 
   background-color: white;
   margin-bottom: 1rem;
-  width: 20rem;
+  width: 23rem;
 }
 
 .todo-value {
   font-size: 1.2rem;
   padding: .2rem .2rem;
-  width: 20rem;
+  width: 23rem;
   text-align: left;
 }
 
@@ -25,9 +26,9 @@
 }
 
 .button {
-  background-color: #9999ff;
+  background-color: blue;
   font-size: 1.2rem;
-  width: 5rem;
+  width: 6rem;
   padding: 0;
   color: #ddd;
   margin: 0;

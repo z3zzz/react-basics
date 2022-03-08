@@ -14,10 +14,7 @@ import Box from "./ContextBox";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <ContextProvider>
-        <Box />
-      </ContextProvider>
+      <ReducerTodo />
     </div>
   );
 }

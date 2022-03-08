@@ -87,19 +87,19 @@ function Todo({ todo, dispatch, index }) {
       )}
       <div className="button-container">
         <button className="button" onClick={() => setIsEditing(true)}>
-          edit
+          편집하기
         </button>
         <button
           className="button"
           onClick={() => dispatch({ type: "toggleTodo", payload: todo.id })}
         >
-          toggle
+          완료하기
         </button>
         <button
           className="button"
           onClick={() => dispatch({ type: "deleteTodo", payload: todo.id })}
         >
-          delete
+          삭제하기
         </button>
       </div>
     </div>
